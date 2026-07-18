@@ -1,0 +1,16 @@
+{
+  "id": "hero",
+  "type": "SharedSlice",
+  "name": "Hero",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Default",
+      "imageUrl": "https://images.prismic.io/sodaanim/shared-slices/hero/default/1d927fe3d4c147236856cecd8cf111839376ba84.png?auto=compress%2Cformat",
+      "docURL": "...",
+      "version": "initial"
+    }
+  ],
+  "description": "Hero"
+}
