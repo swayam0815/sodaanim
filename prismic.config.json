@@ -1,4 +1,9 @@
 {
   "repositoryName": "sodaanim",
-  "routes": []
+  "routes": [
+    {
+      "type": "page",
+      "path": "/:uid"
+    }
+  ]
 }
