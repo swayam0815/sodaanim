@@ -1,7 +1,7 @@
 "use client";
 
 import { Canvas } from "@react-three/fiber";
-import { Environment } from "@react-three/drei";
+import { Environment, View } from "@react-three/drei";
 import FloatingCan from "@/components/FloatingCan";
 
 export default function ViewCanvas() {
@@ -23,8 +23,7 @@ export default function ViewCanvas() {
         fov: 30,
       }}
     >
-      <FloatingCan />
-      <Environment files="/hdr/lobby.hdr" environmentIntensity={1.5} />
+      <View.Port />
     </Canvas>
   );
 }
